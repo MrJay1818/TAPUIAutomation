@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI RBACRegression Test Run Version: 10.4.0" verbose="1" >
+<listeners>
+		<listener class-name="com.onPoint_sp7_1.ExtentReportListener.EmailableReporter2" />
+		<listener class-name="com.onPoint_sp7_1.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.onPoint_sp7_1.RetryAnalyzer.MyTransformer"/>
+	</listeners>
+	
+   <test name="RBAC Admin Phones Test">
+     <classes>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementAdminPhonesTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementAdminTestCasesTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementAdminTestPlanTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementAdminProjectsTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementAdminPanelTC"/>
+     </classes>
+ </test> 
+ 
+   <test name="RBAC User Phones Test">
+     <classes>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementUserPhonesTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementUserTestCasesTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementUserTestPlanTC"/>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementUserProjectsTC"/>
+     </classes>
+  </test> 
+ 
+   <test name="RBAC Admin Panel Test">
+     <classes>
+     <class name="com.onPoint_sp7_1.testcases.RoleManagementUserAdminPanelTC"/>
+     </classes>
+   </test> 
+
+</suite> 

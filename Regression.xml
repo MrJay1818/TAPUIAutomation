@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Regression Test Run Version: 10.4.0" verbose="1">
+<listeners>
+		<listener class-name="com.onPoint_sp7_1.ExtentReportListener.EmailableReporter2" />
+		<listener class-name="com.onPoint_sp7_1.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.onPoint_sp7_1.RetryAnalyzer.MyTransformer"/>
+	</listeners>
+
+  <test name="Test cycle creation">
+     <classes >
+      <class name="com.onPoint_sp7_1.Jira.JiraCycle"/>
+     </classes>
+ </test>
+  
+ <test name="Jenkins cycle selection">
+     <classes >
+      <class name="com.onPoint_sp7_1.Jenkins.Jenkins"/>
+     </classes>
+ </test> 	
+ 
+ <test name="Dashboard Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.common.VersionBuildCheckTC"/>
+      <class name="com.onPoint_sp7_1.testcases.DashboardTC"/>
+     </classes>
+ </test>  
+  
+   <test name="PhoneManager Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.PhoneManagerTc"/>
+      <class name="com.onPoint_sp7_1.testcases.PhoneManager1748"/>
+      <class name="com.onPoint_sp7_1.testcases.PhoneManager1732"/>
+      <class name="com.onPoint_sp7_1.testcases.PhoneManager123"/>
+     </classes>
+ </test>   
+    
+     <test name="TestManager Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.TestCasesTC"/>
+      <class name="com.onPoint_sp7_1.testcases.TestCaseImportTC"/>
+      <class name="com.onPoint_sp7_1.testcases.TestPlanTC"/>
+      <class name="com.onPoint_sp7_1.testcases.TestCases100"/>
+      <class name="com.onPoint_sp7_1.testcases.TestManager096"/>
+     </classes>
+ </test>
+
+  <test name="ProjectManager Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.ProjectsTC"/>
+     </classes>
+ </test> 
+ 
+   <test name="ProjectManager Stories1 Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.ProjectManager1559"/>
+      <class name="com.onPoint_sp7_1.testcases.ProjectManager1560"/>
+     </classes>
+ </test> 
+   
+   <test name="ProjectManager Stories Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.ProjectManager123"/>
+      <class name="com.onPoint_sp7_1.testcases.ProjectManager1589"/>
+      <class name="com.onPoint_sp7_1.testcases.ProjectManager132"/>
+     </classes>
+ </test> 
+ 
+ <test name="VisualDeviceManagement Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.VDMTC"/>
+     </classes>
+ </test>
+ 
+  <test name="VDMTemplate Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.VDMTemplateTC"/>
+     </classes>
+ </test>
+ 
+   <test name="Admin Panel Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.CallServersTC"/>
+      <class name="com.onPoint_sp7_1.testcases.UsersTC"/>
+      <class name="com.onPoint_sp7_1.testcases.RoleManagementTC"/>
+      <class name="com.onPoint_sp7_1.testcases.LicensePreferencesTC"/>
+      <class name="com.onPoint_sp7_1.testcases.Preferences1626"/>
+      <class name="com.onPoint_sp7_1.testcases.Logs1449"/>
+     </classes>
+ </test>
+ 
+</suite> 

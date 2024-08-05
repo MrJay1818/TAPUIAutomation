@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Regression Test Run Version: 10.4.0" verbose="1">
+<listeners>
+		<listener class-name="com.onPoint_sp7_1.ExtentReportListener.EmailableReporter2" />
+		<listener class-name="com.onPoint_sp7_1.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.onPoint_sp7_1.RetryAnalyzer.MyTransformer"/>
+	</listeners>
+
+     <test name="TestManager Module Test">
+     <classes>
+      <class name="com.onPoint_sp7_1.testcases.TestCasesTC"/>
+      <class name="com.onPoint_sp7_1.testcases.TestCaseImportTC"/>
+      <class name="com.onPoint_sp7_1.testcases.TestPlanTC"/>
+      <class name="com.onPoint_sp7_1.testcases.TestCases100"/>
+      <class name="com.onPoint_sp7_1.testcases.TestManager096"/>
+     </classes>
+ </test> 
+</suite> 

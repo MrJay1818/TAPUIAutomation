@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI UsabilityRegression Test Run Version: 10.4.0" verbose="1">
+	<listeners>
+		<listener
+			class-name="com.onPoint_sp7_1.ExtentReportListener.EmailableReporter2" />
+		<listener
+			class-name="com.onPoint_sp7_1.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.onPoint_sp7_1.RetryAnalyzer.MyTransformer" />
+	</listeners>
+
+	<test name="Test cycle creation">
+
+		<classes>
+			<class name="com.onPoint_sp7_1.Jira.Usability_JiraCycle" />
+		</classes>
+	</test>
+
+	<test name="Jenkins cycle selection">
+		<classes>
+			<class name="com.onPoint_sp7_1.Jenkins.Jenkins" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1561">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_RelevantActions_1561TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 2501">
+		<classes>
+			<class name="com.TAP.Features_8_9.Usability_DUT_2501TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1699">
+		<classes>
+			<class name="com.TAP.Features_8_9.Usability_BWActions_1699TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1700">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_RestApiActions_1700Tc" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1558">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_HandlingScripts_1558TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1558-2">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_HandlingScripts_1558TC2" />
+		</classes>
+
+
+	</test>
+
+	<test name="Usability 1133">
+
+		<classes>
+			<class name="com.TAP.Features_8_9.Usability_UndoRedo_1133TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1636">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_ValidateScripts_1636TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1673">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_RemoveTcFromTp1673TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1559">
+		<classes>
+			<class name="com.TAP.Features_8_9.Usability_TV360_1559TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1132">
+		<classes>
+			<class name="com.TAP.Features_8_9.Usability_BulkDelete_1132TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1130">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_Copy_PasteCodeSnippetOfScript_1130TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1695">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_DisplayErrorIconOnScriptTitle_1695TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1697">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_DisplayingWarningIconForUnvalidatedActions_1697TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1641">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_DistinguishValidatedScriptWithUnvalidatedScript_1641TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1129">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_EnableUsersToMigrateScript_1129TC" />
+		</classes>
+
+	</test>
+
+	<test name="Usability 1617">
+		<classes>
+			<class
+				name="com.TAP.Features_8_9.Usability_ValidateCallStates_1617TC" />
+		</classes>
+
+	</test> 
+
+</suite> 
